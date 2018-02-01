@@ -11,12 +11,12 @@ Components may be downloaded from their unit page when possible or globally from
 
 Here is the list of the components :
 
-[[TOC]]
+* Dynamic VM provisioning/retirement StateMachine selection
 
 * * *
 
 
-# [Dynamic VM provisioning/retirement StateMachine selection](TaggedStateMachines/Readme.md)
+[Dynamic VM provisioning/retirement StateMachine selection](TaggedStateMachines/Readme.md)
 
 VM StateMachines are defined by default. This brick dynamically select specific VM StateMachines depending on context. 
 
