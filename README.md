@@ -4,7 +4,6 @@ bricks</h1>
 may be useful.</p>
 <p>Each component is presented thereafter with a short
 description.<br/>
-  <a href="truc">aller à truc</a>
 Following component link will bring you to the full
 component description including use cases, design logic and if
 necessary technical related hints.
@@ -13,7 +12,7 @@ necessary technical related hints.
 <p>Components may be downloaded from their unit page when possible or
 globally from  datastore export from that landing point.</p>
 <p>Here is the list of the components :</p>
-<p><a href="#h.3gczqttqam9p">Dynamic VM provisioning/retirement
+<p><a href="#truc">Dynamic VM provisioning/retirement
 StateMachine selection</a></p>
 <hr/>
 
