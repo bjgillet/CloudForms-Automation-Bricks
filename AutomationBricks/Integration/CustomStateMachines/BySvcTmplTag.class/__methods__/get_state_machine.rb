@@ -1,3 +1,4 @@
+############################################################################################################
 # 
 # Method : get_state_machine
 # 
@@ -21,16 +22,16 @@
 
 @debug = true
 
-#-----------------------------------------------------------------------------------------------
-#	:	Simple logging function
+#-----------------------------------------------------------------------------------------------------------
+#	:	loginfo(message) : Simple :info logging function
 #
 
 def loginfo(message)
   $evm.log(:info,message)
 end
 
-#-----------------------------------------------------------------------------------------------
-#	:	Getting context tag category from instance
+#-----------------------------------------------------------------------------------------------------------
+#	:	get_instance_tagcat : Getting context tag category from instance
 #	:	pre-requisites : 
 #	:		@message - initialized from main code
 #	:	Returns :
@@ -50,7 +51,7 @@ def get_instance_tagcat
   tag_cat
 end
 
-#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
 #	:	get_svc_tmpl_tag(tag_cat) - Getting custom StateMachine class name
 #	:	Parameters :
 #	:		tag_cat = tag category to search for
@@ -74,12 +75,12 @@ def get_svc_tmpl_tag(tag_cat)
   state_machine
 end
 
-#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
 #	:	init_state_machine(state_machine) : Getting custom StateMachine class name
 #	:	Parameters : 
 #	:	  state_machine	=	StateMachine name if tmpl tagged
 #	:						nil if not (back to default StateMachine)
-#
+#	:
 
 def init_state_machine(state_machine)
   case @message
@@ -95,9 +96,10 @@ def init_state_machine(state_machine)
   end
 end
 
-################################################################################
+############################################################################################################
+#		:
 #		:		Main Code
-#
+#		:
 
 loginfo("---> get_statemachine starting")
 
