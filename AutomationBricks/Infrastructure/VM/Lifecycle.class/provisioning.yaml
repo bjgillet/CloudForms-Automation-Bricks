@@ -1,0 +1,14 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: Provisioning
+    inherits: 
+    description: 
+  fields:
+  - Relationship6:
+      value: "/Integration/CustomStateMachines/BySvcTmplTag/GetStateMachine#provision"
+  - Relationship7:
+      value: "/Infrastructure/VM/Provisioning/StateMachines/${/#state_machine}/${/#miq_provision.provision_type}"

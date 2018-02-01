@@ -1,0 +1,20 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: Default
+    inherits: 
+    description: 
+  fields:
+  - UnregisterIdM:
+      value: "/Integration/Identity/RedHatIdM/UnregisterIdM"
+  - ReleaseIPAddress:
+      value: "/Integration/IPAM/PHPIPAM_1.2/ReleaseIPAddress"
+  - RemoveFromProvider:
+      value: "/Infrastructure/VM/Retirement/StateMachines/Methods/RemoveFromProvider"
+  - CheckRemovedFromProvider:
+      value: "/Infrastructure/VM/Retirement/StateMachines/Methods/CheckRemovedFromProvider"
+  - DeleteFromVMDB:
+      value: "#/Infrastructure/VM/Retirement/StateMachines/Methods/DeleteFromVMDB"
