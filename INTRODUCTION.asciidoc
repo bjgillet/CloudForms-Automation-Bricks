@@ -7,13 +7,15 @@ Components may be downloaded from their unit page when possible or globally from
 
 Here is the list of the current components :
 
-* <<dynprov,Dynamic VM provisioning/retirement StateMachine selection>>
-* <<task_race,Task level race conditions management>>
+* <<dynprov,*CustomStateMachines :* Dynamic VM provisioning/retirement StateMachine selection>>
+* <<task_race,*TaskRaceCondition :* Task level race conditions management>>
 
+''''
 [dynprov]
-### link:docs/DynTagStateMachine/doc.asciidoc[*CustomStateMachines*]
+### link:docs/CustomStateMachines/CustomStateMachines.asciidoc[*CustomStateMachines*]
 
-### Dynamic VM provisioning/retirement StateMachine selection
+#### _Dynamic VM provisioning/retirement StateMachine selection_
+''''
 
 VM StateMachines pathes are defined by default. This brick dynamically select specific VM StateMachines depending on context. 
 
@@ -27,9 +29,10 @@ This implementation case is based on catalog item service template tagging, so t
 
 ''''
 [task_race]
-### [*TaskRaceCondition*]
+### TaskRaceCondition
 
-#### Task level race conditions management
+#### _Task level race conditions management_
+''''
 
 *WILL COME SOON - UNDER DOCUMENTATION*
 

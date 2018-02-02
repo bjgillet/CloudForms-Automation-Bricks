@@ -1,4 +1,7 @@
-## Dynamic VM provisioning/retirement StateMachine selection
+''''
+## CustomStateMachines
+### _Dynamic VM provisioning/retirement StateMachine selection_
+''''
 
 Within CloudForms,VM StateMachines are defined by default following the associated request event.
 
@@ -23,13 +26,13 @@ Thereafter are the following sections :
 
 [NOTE]
 ===============================
-*About other components reuse of CustomStateMachine :* 
+*About other components reuse of CustomStateMachines :* 
 
-Within AutomationBricks use cases, this component is used extensively by default.
+Within AutomationBricks use cases, CustomStateMachines is used extensively by default.
 
-It is the way components and use cases are built, tested and used simultaneously without impacting any of other use cases and even less their lab environment production.
+This is because components and use cases are built, tested and used simultaneously without impacting any of other use cases and even less their lab environment production.
 
-When default use-cases/components will require it, it will be clearly indicated as well as the obvious way to suppress that coupling, should you require or wish it.
+When default use-cases/components will require CustomStateMachines, it will be indicated as well as the way to suppress that coupling, should you require or wish it.
 
 ===============================
 
