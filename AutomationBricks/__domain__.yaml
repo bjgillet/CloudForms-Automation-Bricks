@@ -6,7 +6,7 @@ object:
     name: AutomationBricks
     description: 
     display_name: 
-    priority: 8
+    priority: 11
     enabled: true
     tenant_id: 64000000000001
     source: user
