@@ -9,4 +9,4 @@ object:
     description: 
   fields:
   - Relationship5:
-      value: "/Integration/CloudForms/CustomStateMachines/InfraStateMachine#provision"
+      value: "/Integration/CloudForms/CustomStateMachines/CloudStateMachine#provision"

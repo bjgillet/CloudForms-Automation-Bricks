@@ -5,7 +5,7 @@ object:
   attributes:
     description: 
     display_name: 
-    name: BySvcTmplTag
+    name: CustomStateMachines
     type: 
     inherits: 
     visibility: 
@@ -33,10 +33,50 @@ object:
       max_time: 
   - field:
       aetype: attribute
-      name: def_prov_statemachine
+      name: prov_instance_cat
       display_name: 
       datatype: string
       priority: 2
+      owner: 
+      default_value: 
+      substitute: true
+      message: provision
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: def_prov_namespace
+      display_name: 
+      datatype: string
+      priority: 3
+      owner: 
+      default_value: "/Infrastructure/VM/Provisioning/StateMachines"
+      substitute: true
+      message: provision
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: def_prov_statemachine
+      display_name: 
+      datatype: string
+      priority: 4
       owner: 
       default_value: VMProvision_${/#miq_provision.target_type}
       substitute: true
@@ -56,7 +96,27 @@ object:
       name: retire_category
       display_name: 
       datatype: string
-      priority: 3
+      priority: 5
+      owner: 
+      default_value: 
+      substitute: true
+      message: retire
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: ret_instance_cat
+      display_name: 
+      datatype: string
+      priority: 6
       owner: 
       default_value: 
       substitute: true
@@ -76,7 +136,7 @@ object:
       name: def_ret_namespace
       display_name: 
       datatype: string
-      priority: 4
+      priority: 7
       owner: 
       default_value: "/Infrastructure/VM/Retirement/StateMachines"
       substitute: true
@@ -96,7 +156,7 @@ object:
       name: def_ret_class
       display_name: 
       datatype: string
-      priority: 5
+      priority: 8
       owner: 
       default_value: VMRetirement
       substitute: true
@@ -116,7 +176,7 @@ object:
       name: def_ret_instance
       display_name: 
       datatype: string
-      priority: 6
+      priority: 9
       owner: 
       default_value: Default
       substitute: true
@@ -136,7 +196,7 @@ object:
       name: prov_msg
       display_name: 
       datatype: string
-      priority: 7
+      priority: 10
       owner: 
       default_value: provision
       substitute: true
@@ -156,7 +216,7 @@ object:
       name: ret_msg
       display_name: 
       datatype: string
-      priority: 8
+      priority: 11
       owner: 
       default_value: retire
       substitute: true
@@ -176,7 +236,7 @@ object:
       name: execute
       display_name: 
       datatype: string
-      priority: 9
+      priority: 12
       owner: 
       default_value: 
       substitute: true

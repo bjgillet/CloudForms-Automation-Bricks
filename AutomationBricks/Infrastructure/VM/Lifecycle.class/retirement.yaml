@@ -8,5 +8,5 @@ object:
     inherits: 
     description: 
   fields:
-  - Relationship4:
-      value: "/Integration/CustomStateMachines/BySvcTmplTag/GetStateMachine#retire"
+  - Relationship5:
+      value: "/Integration/CloudForms/CustomStateMachines/InfraStateMachine#retire"

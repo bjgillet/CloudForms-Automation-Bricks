@@ -4,9 +4,9 @@ version: 1.0
 object:
   attributes:
     display_name: 
-    name: Provisioning
+    name: Retirement
     inherits: 
     description: 
   fields:
   - Relationship5:
-      value: "/Integration/CloudForms/CustomStateMachines/InfraStateMachine#provision"
+      value: "/Integration/CloudForms/CustomStateMachines/CloudStateMachine#retire"
