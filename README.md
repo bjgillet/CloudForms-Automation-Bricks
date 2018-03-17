@@ -1,5 +1,5 @@
 # CloudForms / ManageIQ automation bricks
 
-This repository full documentation starts here : [INTRODUCTION](INTRODUCTION.asciidoc)
+Some integration primitives for CLoudForms / ManageIQ.
+More public doc to come as available time will let me create it. 
 
-Enjoy.
