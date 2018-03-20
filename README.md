@@ -15,6 +15,9 @@ Select all namespaces than import.
 
 Once imported, your AutomationBricks domain could be disabled. Select your AutomationBricks domain, select Configuration->Edit, check th enabled box option, then save.
 
+Starting with CloudForms 4.2, you may do a direct import from git but I currently do not recommend this option.
+As imported, AutomationBricks would be locked that is probably not the option you would prefer for testing, updating or rollbacking it in time.
+
 ### Importing the AutomationBricks dialogs
 At current release there are no dialogs within automation bricks. When it will be the case, we will update this short notice.
 
