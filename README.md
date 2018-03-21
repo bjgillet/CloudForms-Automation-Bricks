@@ -31,9 +31,5 @@ The current documentations may be consulted on this git wiki page, accessible fr
 
 [AutomationBricks Documentation Home](https://github.com/bjgillet/CloudForms-Automation-Bricks/wiki/Home)
 
-Announces and pin-point details are also be available on the following blog :
-
-[BJG's IT Corner](https://bjgitcorner.blogspot.com)
-
 This notice will be updated as documentation options will be definitives (finalizing designs and processes).
 
