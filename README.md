@@ -30,9 +30,3 @@ An initial set of docs were created but have been currently removed as several d
 The current documentations may be consulted on this git wiki page, accessible from the main menu or through the following link :
 
 [AutomationBricks Documentation Home](https://github.com/bjgillet/CloudForms-Automation-Bricks/wiki/Home)
-
-AutomationBricks news are available at the following blog :
-
-[BJG's IT Corner](https://bjgitcorner.blogspot.com)
-
-This blog is also the best way to comment or share about AutomationBricks. Any post related to AutomationBricks will be tagged as such. For a specific brick, tag used is the name of the brick (i.e. CustomStateMachines).
